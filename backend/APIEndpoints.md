@@ -1,0 +1,5 @@
+- GET    /workouts     &rarr; Gets all the workout documents
+- POST   / workouts    &rarr; Creates a new workout document
+- GET    /workouts/:id &rarr; Gets a single workout document
+- DELETE /wordouts/:id &rarr; Deletes a single workout
+- PATCH  /workouts/:id &rarr; Updates a single workout
