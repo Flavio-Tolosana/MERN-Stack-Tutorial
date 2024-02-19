@@ -23,7 +23,8 @@ const Home = () => {
             }
         }
         fechtWorkouts()
-    }, [])
+    }, [dispatch])
+
     return (
         <div className="home">
             <div className="workouts">

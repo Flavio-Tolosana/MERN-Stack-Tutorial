@@ -69,6 +69,10 @@ header a {
   color: #333;
 }
 
+.workout-details span:hover {
+  background: #e92d2d;
+}
+
 /* new workout form */
 label, input {
   display: block;
@@ -103,11 +107,20 @@ div.error {
   margin: 20px 0;
 }
 
+input.error {
+  border: 1px solid var(--error);
+}
+
+div.home {
+  display: flex;
+}
+
 div.workouts {
-  display: inline-block;
-  margin-right: 100px;
+  flex-grow: 3;
+  margin-right: 75px;
 }
 
 form.create {
-  display: inline-block;
+  flex-grow: 1;
+  margin-left: 75px;
 }
